@@ -171,7 +171,7 @@
                     var hits = this.hitCount,
                         misses = this.missCount,
                         total = this.totalGophers;
-                    $('#accuracy').text(Math.round(total/hits));
+                    $('#accuracy').text(Math.round((hits/total)*100));
                 }
             };
 
